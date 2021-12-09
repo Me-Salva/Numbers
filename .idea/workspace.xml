@@ -4,7 +4,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="35c63c2f-522f-4a31-941b-6a5bd7abd76b" name="Changes" comment="Test Setup Modification">
+    <list default="true" id="35c63c2f-522f-4a31-941b-6a5bd7abd76b" name="Changes" comment="Max Bug 7263">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/numbers/src/test/java/com/aor/numbers/ListAggregatorTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/numbers/src/test/java/com/aor/numbers/ListAggregatorTest.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -225,7 +226,14 @@
       <option name="project" value="LOCAL" />
       <updated>1639087134331</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="Max Bug 7263">
+      <created>1639087630735</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1639087630735</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -244,6 +252,7 @@
     <MESSAGE value="First Commit" />
     <MESSAGE value="Test Setup" />
     <MESSAGE value="Test Setup Modification" />
-    <option name="LAST_COMMIT_MESSAGE" value="Test Setup Modification" />
+    <MESSAGE value="Max Bug 7263" />
+    <option name="LAST_COMMIT_MESSAGE" value="Max Bug 7263" />
   </component>
 </project>
