@@ -11,8 +11,8 @@ class PositiveFilterTest {
     @Test
     void accept() {
         PositiveFilter filter = new PositiveFilter();
-        List<Integer> positives = Arrays.asList(1, 2, 3, 4, 5, Integer.MAX_VALUE);
-        List<Integer> notPositives = Arrays.asList(0, -1, -2, -3, -4, -5, Integer.MIN_VALUE);
+        List<Integer> positives = Arrays.asList(1, 2, 3, 4, 5, 10, 100, 1000, Integer.MAX_VALUE);
+        List<Integer> notPositives = Arrays.asList(0, -1, -2, -3, -4, -5, -10, -1000, -10000, Integer.MIN_VALUE);
 
         for (int n : positives)
             Assertions.assertTrue(filter.accept(n));
