@@ -4,16 +4,15 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="35c63c2f-522f-4a31-941b-6a5bd7abd76b" name="Changes" comment="Bug Distinct 8726">
-      <change afterPath="$PROJECT_DIR$/numbers/src/main/java/com/aor/numbers/GenericListDeduplicator.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/numbers/src/main/java/com/aor/numbers/GenericListSorter.java" afterDir="false" />
+    <list default="true" id="35c63c2f-522f-4a31-941b-6a5bd7abd76b" name="Changes" comment="Bug Distinct 8726 Changes + Mockito">
+      <change afterPath="$PROJECT_DIR$/numbers/src/main/java/com/aor/numbers/DivisibleByFilter.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/numbers/src/main/java/com/aor/numbers/GenericListFilter.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/numbers/src/main/java/com/aor/numbers/ListFilterer.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/numbers/src/main/java/com/aor/numbers/PositiveFilter.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/numbers/src/test/java/com/aor/numbers/DivisibleByFilterTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/numbers/src/test/java/com/aor/numbers/ListFiltererTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/numbers/src/test/java/com/aor/numbers/PositiveFilterTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/numbers/build.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/numbers/build.gradle" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/numbers/src/main/java/com/aor/numbers/ListAggregator.java" beforeDir="false" afterPath="$PROJECT_DIR$/numbers/src/main/java/com/aor/numbers/ListAggregator.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/numbers/src/main/java/com/aor/numbers/ListDeduplicator.java" beforeDir="false" afterPath="$PROJECT_DIR$/numbers/src/main/java/com/aor/numbers/ListDeduplicator.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/numbers/src/main/java/com/aor/numbers/ListSorter.java" beforeDir="false" afterPath="$PROJECT_DIR$/numbers/src/main/java/com/aor/numbers/ListSorter.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/numbers/src/test/java/com/aor/numbers/ListAggregatorTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/numbers/src/test/java/com/aor/numbers/ListAggregatorTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/numbers/src/test/java/com/aor/numbers/ListDeduplicatorTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/numbers/src/test/java/com/aor/numbers/ListDeduplicatorTest.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -77,6 +76,7 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
+        <option value="Interface" />
         <option value="Class" />
       </list>
     </option>
@@ -262,7 +262,14 @@
       <option name="project" value="LOCAL" />
       <updated>1639089588667</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="Bug Distinct 8726 Changes + Mockito">
+      <created>1639148245550</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1639148245550</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -283,6 +290,10 @@
     <MESSAGE value="Test Setup Modification" />
     <MESSAGE value="Max Bug 7263" />
     <MESSAGE value="Bug Distinct 8726" />
-    <option name="LAST_COMMIT_MESSAGE" value="Bug Distinct 8726" />
+    <MESSAGE value="Bug Distinct 8726 Changes + Mockito" />
+    <option name="LAST_COMMIT_MESSAGE" value="Bug Distinct 8726 Changes + Mockito" />
+  </component>
+  <component name="com.intellij.coverage.CoverageDataManagerImpl">
+    <SUITE FILE_PATH="coverage/numbers$Tests_in__numbers_test_.ic" NAME="Tests in 'numbers.test' Coverage Results" MODIFIED="1639149399047" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" />
   </component>
 </project>
