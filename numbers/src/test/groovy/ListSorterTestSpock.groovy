@@ -12,24 +12,24 @@ class ListSorterTestSpock extends Specification {
 
     def 'Testing: sort'() {
         given:
-        def sorter = new ListSorter();
+            def sorter = new ListSorter();
 
         when:
-        def sorted = sorter.sort(list);
+            def sorted = sorter.sort(list);
 
         then:
-        expected == sorted;
+            expected == sorted;
     }
 
 
     def 'Testing deduplicate bug 8726'() {
         given:
-        def sorter = new ListSorter();
+            def sorter = new ListSorter() as Object;
 
         when:
-        def sorted = sorter.sort(Arrays.asList(1, 2, 4, 2))
+            def sorted = sorter.sort(Arrays.asList(1, 2, 2, 4))
 
         then:
-        Arrays.asList(1, 2, 2, 4) == sorted;
+            Arrays.asList(1, 2, 2, 4) == sorted;
     }
 }
