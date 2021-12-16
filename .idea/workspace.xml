@@ -4,7 +4,13 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="35c63c2f-522f-4a31-941b-6a5bd7abd76b" name="Changes" comment="Groovy">
+    <list default="true" id="35c63c2f-522f-4a31-941b-6a5bd7abd76b" name="Changes" comment="Groovy 2">
+      <change afterPath="$PROJECT_DIR$/numbers/src/test/groovy/DivisibleByFilterTestSpock.groovy" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/numbers/src/test/groovy/ListAggregatorTestSpock.groovy" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/numbers/src/test/groovy/ListDeduplicatorTestSpock.groovy" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/numbers/src/test/groovy/ListFiltererTestSpock.groovy" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/numbers/src/test/groovy/ListSorterTestSpock.groovy" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/numbers/src/test/groovy/PositiveFilterTestSpock.groovy" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/numbers/src/test/groovy/FirstSpecification.groovy" beforeDir="false" afterPath="$PROJECT_DIR$/numbers/src/test/groovy/FirstSpecification.groovy" afterDir="false" />
     </list>
@@ -105,13 +111,13 @@
     <property name="project.structure.side.proportion" value="0.2" />
     <property name="settings.editor.selected.configurable" value="testing.instrumented.configuration" />
   </component>
-  <component name="RunManager" selected="Gradle.FirstSpecification.numbers to the power of two">
-    <configuration name="FirstSpecification.Should be able to remove from list" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+  <component name="RunManager" selected="Gradle.ListSorterTestSpock">
+    <configuration name="DivisibleByFilterSpockTest.accept divide by 5" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
       <ExternalSystemSettings>
         <option name="executionName" />
         <option name="externalProjectPath" value="$PROJECT_DIR$/numbers" />
         <option name="externalSystemIdString" value="GRADLE" />
-        <option name="scriptParameters" value="--tests &quot;FirstSpecification.Should be able to remove from list&quot;" />
+        <option name="scriptParameters" value="--tests &quot;DivisibleByFilterSpockTest.accept divide by 5&quot;" />
         <option name="taskDescriptions">
           <list />
         </option>
@@ -169,12 +175,12 @@
       <DebugAllEnabled>false</DebugAllEnabled>
       <method v="2" />
     </configuration>
-    <configuration name="FirstSpecification.one plus one should equal two" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+    <configuration name="ListSorterTestSpock" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
       <ExternalSystemSettings>
         <option name="executionName" />
         <option name="externalProjectPath" value="$PROJECT_DIR$/numbers" />
         <option name="externalSystemIdString" value="GRADLE" />
-        <option name="scriptParameters" value="--tests &quot;FirstSpecification.one plus one should equal two&quot;" />
+        <option name="scriptParameters" value="--tests &quot;ListSorterTestSpock&quot;" />
         <option name="taskDescriptions">
           <list />
         </option>
@@ -190,12 +196,12 @@
       <DebugAllEnabled>false</DebugAllEnabled>
       <method v="2" />
     </configuration>
-    <configuration name="FirstSpecification.two plus two should equal four" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+    <configuration name="Tests in 'numbers.test'" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
       <ExternalSystemSettings>
         <option name="executionName" />
         <option name="externalProjectPath" value="$PROJECT_DIR$/numbers" />
         <option name="externalSystemIdString" value="GRADLE" />
-        <option name="scriptParameters" value="--tests &quot;FirstSpecification.two plus two should equal four&quot;" />
+        <option name="scriptParameters" value="--tests *" />
         <option name="taskDescriptions">
           <list />
         </option>
@@ -226,11 +232,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Gradle.ListSorterTestSpock" />
+        <item itemvalue="Gradle.Tests in 'numbers.test'" />
+        <item itemvalue="Gradle.DivisibleByFilterSpockTest.accept divide by 5" />
         <item itemvalue="Gradle.FirstSpecification.numbers to the power of two" />
         <item itemvalue="Gradle.FirstSpecification.Should get an index out of bounds when removing a nonexistent item" />
-        <item itemvalue="Gradle.FirstSpecification.Should be able to remove from list" />
-        <item itemvalue="Gradle.FirstSpecification.two plus two should equal four" />
-        <item itemvalue="Gradle.FirstSpecification.one plus one should equal two" />
       </list>
     </recent_temporary>
   </component>
@@ -306,7 +312,14 @@
       <option name="project" value="LOCAL" />
       <updated>1639613337708</updated>
     </task>
-    <option name="localTasksCounter" value="10" />
+    <task id="LOCAL-00010" summary="Groovy 2">
+      <created>1639613914955</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1639613914955</updated>
+    </task>
+    <option name="localTasksCounter" value="11" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -331,7 +344,8 @@
     <MESSAGE value="Filters" />
     <MESSAGE value="Corrections" />
     <MESSAGE value="Groovy" />
-    <option name="LAST_COMMIT_MESSAGE" value="Groovy" />
+    <MESSAGE value="Groovy 2" />
+    <option name="LAST_COMMIT_MESSAGE" value="Groovy 2" />
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
     <SUITE FILE_PATH="coverage/numbers$Tests_in__numbers_test_.ic" NAME="Tests in 'numbers.test' Coverage Results" MODIFIED="1639149399047" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" />

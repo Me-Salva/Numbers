@@ -44,5 +44,4 @@ class FirstSpecification extends Specification{
         2 | 2 | 4
         3 | 2 | 9
     }
-
 }
